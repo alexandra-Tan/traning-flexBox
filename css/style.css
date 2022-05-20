@@ -15,6 +15,27 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   font-size: 14px;
 }
+/* контейнер шапки */
+
+.container {
+  width: 1200px;
+  outline: 2px solid #2196f3;
+  margin: auto;
+}
+.head-container {
+  display: flex;
+  align-items: center;
+}
+.list,
+.list-contacts,
+.list-Benefits,
+.list-choose,
+.list-team,
+.list-button,
+.list-portfolio {
+  padding: 0;
+  margin: 0;
+}
 
 /*  логотип */
 .logo {
@@ -23,6 +44,8 @@ body {
 
 .logo-footer {
   color: var(--complementary-color);
+  display: block;
+  margin-bottom: 20px;
 }
 
 .logo,
@@ -40,13 +63,24 @@ body {
 }
 
 /* Навигация */
+.list {
+  display: flex;
+}
 
+.list li:not(:last-child) {
+  /* outline: 1px solid red; */
+  margin-right: 50px;
+}
 .link {
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  display: block;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 .link:focus,
 .link:hover {
@@ -54,6 +88,13 @@ body {
 }
 
 /* контакты */
+.list-contacts {
+  display: flex;
+}
+
+.list-contacts .item + .item {
+  margin-left: 50px;
+}
 
 .contacts {
   color: var(--primary-text-color);
@@ -61,6 +102,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: block;
 }
 
 .contacts:focus,
@@ -68,13 +110,18 @@ body {
   color: var(--color-accent);
 }
 /* главный заголовок */
+.hero {
+  text-align: center;
+}
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--complementary-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -83,30 +130,46 @@ body {
 .button {
   color: var(--complementary-color);
   background-color: var(--color-accent);
+  border: 1px solid transparent;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
+
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   font-family: 'Roboto', 'Raleway', sans-serif;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 
 /* преимущество  заголовок*/
+.Benefits {
+  padding-top: 94px;
+}
 
 .Benefits-title {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 /* текст ниже заголовка */
 
 .Benefits-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* что можно реализовать. наша команда заголовки  */
+.choose {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .choose-title,
 .team-main-title {
@@ -115,8 +178,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 /* наша команда */
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .team-title {
   font-weight: 500;
@@ -124,11 +193,14 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-top: 30px;
 }
 
 .team-text {
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .team {
@@ -136,6 +208,14 @@ body {
 }
 
 /* кнопки в портфолио */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list-button {
+  margin-bottom: 50px;
+}
 
 .radio-buttons {
   color: var(--secondary-text-color);
@@ -146,6 +226,11 @@ body {
   letter-spacing: 0.03em;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  /* min-width: 145px; */
+  padding: 6px 22px;
+  /* height: 38px; */
 }
 
 .radio-buttons:hover,
@@ -159,12 +244,16 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 /*  текст в портволио */
 .portfolio-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* футер */
 
@@ -176,6 +265,12 @@ body {
 
 .location .contacts {
   color: var(--contact-color);
+  display: block;
+  margin-top: 9px;
+}
+.container.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer,

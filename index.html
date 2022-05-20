@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
     <header>
-        <a class="logo" href=""> <span class="logo-blu">Photo</span>Studio</a>
-    <nav class="site-nav">
+      
+      <div class="container head-container"> 
+           <a class="logo" href=""> <span class="logo-blu">Photo</span>Studio</a>
+      <nav class="site-nav">
 
         <ul class="list">
             <li> <a class="link" href="./index.html">О нас</a> </li>
@@ -22,9 +25,10 @@
     </nav>
 
     <ul class="list-contacts">
-       <li> <a class="contacts" href="mailto:manki@mail.com">manki@mail.com</a> </li>
-       <li> <a class="contacts" href="tel:+3802223344">+3802223344</a></li>
+       <li class="item"> <a class="contacts" href="mailto:manki@mail.com">manki@mail.com</a> </li>
+       <li class="item"> <a class="contacts" href="tel:+3802223344">+3802223344</a></li>
     </ul>
+</div>
         </header>
 
     <main>
@@ -33,9 +37,12 @@
             <button class="button" type="button">Заказать студию </button>
     
         </section>
+       
         <section class="Benefits">
+
+            <div class="container">
             <!-- Скрытый заголовок секции -->
-            <h2>Преимущества</h2>
+            <!-- <h2>Преимущества</h2> -->
 
             <ul class="list-Benefits">
                 <li> 
@@ -58,8 +65,11 @@
                      <p class="Benefits-text">Огромная фотостудия площадью 250м<sup>2</sup> в светлых тонах.</p>
                 </li>
             </ul>
+        </div>
         </section>
+    
         <section class="choose">
+            <div class="container">
 
             <h2 class="choose-title"> Что можно у нас реализовать?</h2> 
             <ul class="list-choose" >
@@ -77,9 +87,12 @@
                     <a href=""> <img src="./image/ab45cad3741adcbf7237676df85c8433.jpg" alt=" Свадебное фото" width="370"></a>
                 </li>
             </ul>
+        </div>
         </section>
         
         <section class="team">
+            <div class="container">
+
             <h2 class="team-main-title">Наша команда</h2>
 
         <ul class="list-team">
@@ -108,19 +121,22 @@
                  <p class="team-text">Администратор</p>
             </li>
         </ul>
+    </div>
+
         </section>
 
      </main>
 
         <footer>
+            <div class="container footer">
             <a class="logo-footer" href=""> <span class="logo-blu">Photo</span>Studio</a>
             <address class="location">
                 г.Днепр1, ул.Шевченко,155
                 <a class="contacts" href="mailto:manki@mail.com">manki@mail.com</a>
                 <a class="contacts" href="tel:+3802223344">+3802223344</a>
-
+           
             </address>
-
+        </div>
         </footer>
 
       

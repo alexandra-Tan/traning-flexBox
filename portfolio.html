@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
     <header>
+        <div class="container">
         <a class="logo" href=""> <span class="logo-blu">Photo</span>Studio</a>
        <nav>
             <ul class="list">
@@ -22,11 +24,14 @@
        <li> <a class="contacts" href="mailto:manki@mail.com">manki@mail.com</a> </li>
        <li> <a class="contacts" href="tel:+3802223344">+3802223344</a></li>
     </ul>
+</div>
         </header>
         <main>
             <section class="portfolio">
+
                <!-- hidden title -->
-                <h1>Портфолио</h1>
+                <!-- <h1>Портфолио</h1> -->
+                <div class="container"> 
 
                 <ul class="list-button">
                <li> <button class="radio-buttons" type="button">Все</button> </li>
@@ -92,9 +97,11 @@
                     </li>
                      
                 </ul>
+            </div>
               </section>
         </main>
         <footer>
+            <div class="container footer">
             <a class="logo-footer" href=""> <span class="logo-blu">Photo</span>Studio</a>
             <address class="location">
                 г.Днепр1, ул.Шевченко,155
@@ -102,7 +109,7 @@
                 <a class="contacts" href="tel:+3802223344">+3802223344</a>
 
             </address>
-
+        </div>
         </footer>
 </body>
 </html>
