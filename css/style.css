@@ -1,0 +1,194 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --contact-color: rgba(255, 255, 255, 0.6);
+  --color-accent: #2196f3;
+  --background-body: #e5e5e5;
+
+  --background-team: #f5f4fa;
+  --background-footer: #2f303a;
+  --complementary-color: #ffffff;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--background-body);
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+/*  логотип */
+.logo {
+  color: var(--secondary-text-color);
+}
+
+.logo-footer {
+  color: var(--complementary-color);
+}
+
+.logo,
+.logo-footer {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-blu {
+  color: var(--color-accent);
+}
+
+/* Навигация */
+
+.link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link:focus,
+.link:hover {
+  color: var(--color-accent);
+}
+
+/* контакты */
+
+.contacts {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts:focus,
+.contacts:hover {
+  color: var(--color-accent);
+}
+/* главный заголовок */
+
+.hero-title {
+  color: var(--complementary-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* кнопка */
+
+.button {
+  color: var(--complementary-color);
+  background-color: var(--color-accent);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+/* преимущество  заголовок*/
+
+.Benefits-title {
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* текст ниже заголовка */
+
+.Benefits-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* что можно реализовать. наша команда заголовки  */
+
+.choose-title,
+.team-main-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* наша команда */
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.team-text {
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: var(--background-team);
+}
+
+/* кнопки в портфолио */
+
+.radio-buttons {
+  color: var(--secondary-text-color);
+  background-color: var(--background-team);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+.radio-buttons:hover,
+.radio-buttons:focus {
+  color: var(--complementary-color);
+  background-color: var(--color-accent);
+}
+/*  заголовки в портфолио */
+.portfolio-title {
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/*  текст в портволио */
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* футер */
+
+.location {
+  color: var(--complementary-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.location .contacts {
+  color: var(--contact-color);
+}
+
+footer,
+.hero {
+  background-color: var(--background-footer);
+}
+
+.list,
+.list-contacts,
+.list-Benefits,
+.list-choose,
+.list-team,
+.list-button,
+.list-portfolio {
+  list-style: none;
+}
