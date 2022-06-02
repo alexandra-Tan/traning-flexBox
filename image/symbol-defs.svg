@@ -1,0 +1,39 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-camera" viewBox="0 0 32 32">
+<path fill="none" stroke="#020202" style="stroke: var(--color1, #020202)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M23.945 11.264h-4.105c-0.568-0-1.052-0.356-1.243-0.856l-0.003-0.009-0.197-0.53c-0.194-0.509-0.678-0.864-1.245-0.864-0 0-0 0-0 0h-2.303c-0 0-0 0-0 0-0.567 0-1.051 0.355-1.242 0.855l-0.003 0.009-0.197 0.53c-0.194 0.51-0.678 0.865-1.245 0.866h-4.105c-0.576 0.002-1.043 0.468-1.045 1.045v9.643c0.002 0.576 0.469 1.043 1.045 1.045h15.889c0.576-0.002 1.043-0.468 1.045-1.045v-9.644c-0.002-0.576-0.469-1.043-1.045-1.044h-0z"></path>
+<path fill="none" stroke="#020202" style="stroke: var(--color1, #020202)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M19.83 16.175c0.111 0.35 0.175 0.753 0.175 1.17 0 2.212-1.793 4.006-4.006 4.006s-4.006-1.793-4.006-4.006c0-2.212 1.793-4.006 4.006-4.006 1.164 0 2.212 0.496 2.944 1.289l0.002 0.003"></path>
+<path fill="none" stroke="#020202" style="stroke: var(--color1, #020202)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M14.196 19.525c0.485 0.402 1.113 0.646 1.798 0.646 1.561 0 2.826-1.265 2.826-2.826s-1.265-2.826-2.826-2.826c-1.561 0-2.826 1.265-2.826 2.826 0 0.37 0.071 0.724 0.201 1.048l-0.007-0.019"></path>
+<path fill="none" stroke="#020202" style="stroke: var(--color1, #020202)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M24.99 20.644l-4.986 0.027"></path>
+<path fill="none" stroke="#020202" style="stroke: var(--color1, #020202)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M11.996 20.714l-4.986 0.027"></path>
+<path d="M22.232 12.178h1.384c0.25 0 0.452 0.202 0.452 0.452v0c0 0.25-0.202 0.452-0.452 0.452h-1.384c-0.25 0-0.452-0.202-0.452-0.452v-0c0-0.25 0.202-0.452 0.452-0.452z"></path>
+</symbol>
+<symbol id="icon-location" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M9.314 11.125c1.022-2.7 3.629-4.62 6.686-4.62 3.946 0 7.145 3.2 7.145 7.146 0 3.168-4.606 9.229-6.422 11.495-0.172 0.212-0.432 0.347-0.723 0.347s-0.552-0.135-0.722-0.345l-0.001-0.002c-1.779-2.22-6.236-8.083-6.416-11.299"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M12.724 13.649c0.006-0.899 0.374-1.71 0.965-2.297l0-0"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M14.801 10.624c0.355-0.144 0.767-0.227 1.199-0.227 1.81 0 3.277 1.467 3.277 3.277s-1.467 3.277-3.277 3.277c-1.302 0-2.427-0.76-2.956-1.86l-0.009-0.020"></path>
+</symbol>
+<symbol id="icon-light" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M14.665 5.758c0.397-0.082 0.854-0.13 1.322-0.131h0.001c0.007-0 0.014-0 0.022-0 1.682 0 3.22 0.616 4.401 1.634l-0.009-0.007"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M13.169 6.24c-2.345 1.1-3.94 3.44-3.94 6.154 0 2.427 1.276 4.556 3.194 5.753l0.029 0.017c0.294 0.183 0.487 0.505 0.487 0.872v0 2.778h6.121v-2.778c0-0.001 0-0.002 0-0.003 0-0.364 0.191-0.683 0.478-0.863l0.004-0.003c1.949-1.212 3.227-3.342 3.227-5.771 0-1.323-0.38-2.558-1.036-3.601l0.017 0.028"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M13.574 23.68h4.852"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M17.989 25.549c-0.509 0.509-1.212 0.824-1.989 0.824s-1.48-0.315-1.989-0.824v0"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M16 17.113v4.7"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M14.838 15.565l1.139 1.402"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M17.162 15.565l-1.139 1.402"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M12.45 13.89c-0.124-0.196-0.197-0.434-0.197-0.689 0-0.72 0.584-1.304 1.304-1.304 0.465 0 0.873 0.243 1.104 0.61l0.003 0.005"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M19.55 13.89c0.124-0.196 0.197-0.434 0.197-0.689 0-0.72-0.584-1.304-1.304-1.304-0.465 0-0.873 0.243-1.104 0.61l-0.003 0.005"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M17.321 12.556c-0.016-0.708-0.594-1.275-1.304-1.275-0.72 0-1.304 0.584-1.304 1.304v0"></path>
+</symbol>
+<symbol id="icon-place" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M21.867 16.349l-1.349-1.396"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M10.090 12.38l4.022-3.888c0.021-0.020 0.049-0.032 0.080-0.032 0.032 0 0.062 0.013 0.083 0.035l0 0 4.946 5.116"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M11.633 17.202l-1.5-1.551"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M12.931 18.545l4.797 4.961c0.021 0.022 0.050 0.035 0.083 0.035 0.031 0 0.059-0.012 0.080-0.032l-0 0 4.020-3.888"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M20.59 18.435l2.921-0.386"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M23.534 18.074l-0.485 2.906"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M8.95 11.020l-0.485 2.906"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.7040" d="M8.49 13.951l2.921-0.386"></path>
+</symbol>
+</defs>
+</svg>
